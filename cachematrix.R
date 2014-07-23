@@ -57,7 +57,7 @@ cacheSolve <- function(x, ...) {
     ## Return the inverse if it wasal created
     if(!is.null(mtx)) {
 
-        message("getting cached data")
+        message("Getting cached data...")
         return(mtx)
 
     }
